@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './Header.css'
 
 
 class Header extends Component {
   render() {
     return (
       <div>
-      <p>Header</p>
+      <p>Flippers Tavern</p>
 
 
     </div>
