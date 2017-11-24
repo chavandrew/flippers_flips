@@ -9,6 +9,7 @@ import{
 
 import './App.css';
 
+
 class App extends Component {
   render() {
     return (
@@ -20,7 +21,7 @@ class App extends Component {
           <nav className='tabs'>
             <NavLink exact to='/'>Home</NavLink>{' '}
             <NavLink to='/about'>About</NavLink>{' '}
-            <NavLink to='/foodmenu'>Food Menu</NavLink>{' '}
+            <NavLink to='/foodmenu'>Menu</NavLink>{' '}
           </nav>
 
         </div>
