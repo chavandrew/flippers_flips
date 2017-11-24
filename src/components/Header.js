@@ -8,7 +8,6 @@ class Header extends Component {
       <div>
       <p>Flippers Tavern</p>
 
-
     </div>
 
   );

@@ -16,33 +16,20 @@ class App extends Component {
   render() {
     return (
       <div>
-      
-
     <Router>
         <div>
           <nav className='tabs'>
-            <NavLink exact to='/'>Home</NavLink>{' '}
-            <NavLink to='/about'>About</NavLink>{' '}
-            <NavLink to='/menu'>Menu</NavLink>{' '}
+            <NavLink  className='link' exact to='/'>Home</NavLink>{' '}
+            <NavLink className='link' to='/about'>About</NavLink>{' '}
+            <NavLink className='link' to='/menu'>Menu</NavLink>{' '}
           </nav>
           <Switch>
-
-
-                   <Route path="/menu" component={Menu} />
-                    <Route path="/about" component={About} />
-
-                </Switch>
-
-
+            <Route path="/menu" component={Menu} />
+            <Route path="/about" component={About} />
+          </Switch>
         </div>
       </Router>
-
-
-
-
-
-
-</div>
+    </div>
 );
 
 

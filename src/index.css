@@ -1,5 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+.app{
+  background-color: black;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.tabs {
+  background: #EEA200;
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  font-family: 'Roboto Slab';
+
+}
+
+.link{
+  transition: 0.4s;
+ color: #ffffff;
+ font-size: 20px;
+ text-decoration: none;
+ padding: 0 10px;
+ margin: 0 10px;
+}
+.link:hover {
+ background-color: #ffffff;
+ color: #EEA200;
+ padding: 24px 10px;
 }
