@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
-. {
+.app{
   background: black
 }
 
@@ -29,6 +29,6 @@ body {
 }
 .link:hover {
  background-color: #ffffff;
- color: white;
+ color: black;
  padding: 24px 10px;
 }
