@@ -6,6 +6,7 @@ import{
   NavLink,
   Switch
 } from 'react-router-dom';
+import {Helmet} from 'react-helmet';
 
 import './App.css';
 import Menu from './components/Menu';
@@ -18,11 +19,15 @@ class App extends Component {
       <div>
     <Router>
         <div>
+
           <nav className='tabs'>
             <NavLink  className='link' exact to='/'>Home</NavLink>{' '}
             <NavLink className='link' to='/about'>About</NavLink>{' '}
             <NavLink className='link' to='/menu'>Menu</NavLink>{' '}
           </nav>
+          <Helmet>
+               <style>{'body { background-image: /img/flipperstavernbar.jpg; }'}</style>
+           </Helmet>
           <Switch>
             <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />

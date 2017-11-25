@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
-.app{
-  background-color: black;
+. {
+  background: black
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 .tabs {
-  background: #EEA200;
+  background: black;
   margin-top: 40px;
   padding: 24px;
   text-align: center;
@@ -29,6 +29,6 @@ body {
 }
 .link:hover {
  background-color: #ffffff;
- color: #EEA200;
+ color: white;
  padding: 24px 10px;
 }
