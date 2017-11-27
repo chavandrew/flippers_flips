@@ -19,14 +19,14 @@ class App extends Component {
       <div>
     <Router>
         <div>
-
+          <h1>Flippers Tavern</h1>
           <nav className='tabs'>
             <NavLink  className='link' exact to='/'>Home</NavLink>{' '}
             <NavLink className='link' to='/about'>About</NavLink>{' '}
             <NavLink className='link' to='/menu'>Menu</NavLink>{' '}
           </nav>
           <Helmet>
-               <style>{'body { background-image: /img/flipperstavernbar.jpg; }'}</style>
+               <style>{'body { background-color: black; }'}</style>
            </Helmet>
           <Switch>
             <Route path="/menu" component={Menu} />
