@@ -12,7 +12,7 @@ body {
 
 .tabs {
   background: black;
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 24px;
   text-align: center;
   font-family: 'Roboto Slab';
@@ -20,7 +20,7 @@ body {
 }
 
 .link{
-  transition: 0.4s;
+transition: 0.4s;
  color: #ffffff;
  font-size: 20px;
  text-decoration: none;

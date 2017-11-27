@@ -4,6 +4,7 @@ import './Menu.css'
 class Menu extends Component {
   render() {
     return (
+
   <div className='menu'>
 
     <div className='brat'>
@@ -12,7 +13,7 @@ class Menu extends Component {
     </div>
     <div className='brat'>
     <h3>Damned Dog - $9</h3>
-      <p>Beef chili, chedda, breaded jalapeno bites & onions</p>
+      <p>Beef chili, cheddar, breaded jalapeno bites & onions</p>
     </div>
     <div className='brat'>
     <h3>Flipper Style - $7</h3>
@@ -50,7 +51,9 @@ class Menu extends Component {
     <h3 >Shrimp Tacos - $12</h3>
       <p>(3) to an order corn tortillas, honey habanero mustard, shredded cabbage, tomato relish, queso fresco, tri colored chpis, & side of pico</p>
     </div>
-    </div>
+
+
+</div>
 
   );
   }

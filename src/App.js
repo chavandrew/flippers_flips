@@ -7,11 +7,13 @@ import{
   Switch
 } from 'react-router-dom';
 import {Helmet} from 'react-helmet';
+import bar from './assets/img/flipperstavernbar.png'
 
 import './App.css';
 import Menu from './components/Menu';
 import About from './components/About';
-import Header from './components/Header'
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -22,9 +24,10 @@ class App extends Component {
           <h1>Flippers Tavern</h1>
           <nav className='tabs'>
             <NavLink  className='link' exact to='/'>Home</NavLink>{' '}
-            <NavLink className='link' to='/about'>About</NavLink>{' '}
             <NavLink className='link' to='/menu'>Menu</NavLink>{' '}
+            <NavLink className='link' to='/about'>About</NavLink>{' '}
           </nav>
+          <img  className='image'src={bar} />
           <Helmet>
                <style>{'body { background-color: black; }'}</style>
            </Helmet>
@@ -34,6 +37,7 @@ class App extends Component {
           </Switch>
         </div>
       </Router>
+      <Footer />
     </div>
 );
 
