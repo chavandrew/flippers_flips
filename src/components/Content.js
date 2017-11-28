@@ -4,11 +4,11 @@ import './Content.css'
 class Content extends Component {
   render() {
     return (
-      <div>
+      <div class='wrapper'>
       <div class='page-section'>
         <div class='wrapper'>
           <div class='conent'>
-            <div class='conent-header'>
+            <div class='conentheader'>
               <h3>Appetizers</h3>
             </div>
               <div class='content-details'>
@@ -54,7 +54,7 @@ class Content extends Component {
         <div class='page-section'>
           <div class='wrapper'>
             <div class='conent'>
-              <div class='conent-header'>
+              <div class='conentheader'>
                 <h3>Signature Dogs</h3>
               </div>
                 <div class='content-details'>
@@ -131,8 +131,11 @@ class Content extends Component {
               </div>
                 </div>
                   </div>
-                </div>
+              
 
+
+
+</div>
   );
   }
 }
