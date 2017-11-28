@@ -2,18 +2,6 @@
 
 .App {
   text-align: center;
-}  
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
 }
 
 .App-title {
@@ -26,9 +14,14 @@
 .tabs{
   text-align: center;
 }
-body {
+
+
+.link{
+  width:10%;
+}
+/*body {
   padding: 1px;
-  background-image: url('./assets/img/flipperstavernbar.png');
+  background-image: url('./assets/img/flipperstavernpreview.jpg');
   background-size: cover;
   height: 100vh;
   min-width: 100%;
@@ -36,7 +29,5 @@ body {
   top: 0;
   bottom: 0;
   margin: 0px;
-}
-.link{
-  width:10%;
-}
+
+}*/

@@ -15,7 +15,8 @@ import Menu from './components/Menu';
 import About from './components/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home'
+import Home from './components/Home';
+import Content from './components/Content'
 
 class App extends Component {
   render() {
@@ -30,14 +31,16 @@ class App extends Component {
             <NavLink className='link' to='/home'>Home</NavLink>{' '}
             <NavLink className='link' to='/menu'>Menu</NavLink>{' '}
             <NavLink className='link' to='/about'>About</NavLink>{' '}
+            <NavLink className='link' to='/content'>Content</NavLink>{' '}
           </nav>
-        
+
           <Helmet>
                <style>{'body { background-color: black; }'}</style>
            </Helmet>
           <Switch>
             <Route path="/menu" component={Menu} />
             <Route path="/about" component={About} />
+            <Route path="/content" component={Content} />
           </Switch>
         </div>
       </Router>
