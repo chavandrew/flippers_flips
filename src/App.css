@@ -2,8 +2,7 @@
 
 .App {
   text-align: center;
-  /*background: url('./assets/img/bartop-flippers')*/
-}
+}  
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -22,13 +21,22 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: medium;
 }
 .tabs{
   text-align: center;
 }
-.image {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  padding: 1px;
+  background-image: url('./assets/img/flipperstavernbar.png');
+  background-size: cover;
+  height: 100vh;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 0px;
+}
+.link{
+  width:10%;
 }
