@@ -1,0 +1,14 @@
+
+.img{
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+
+}
+.imghome{
+  position: center;
+  height: 80%;
+  min-width: 0%;
+  padding-top: 1px;
+
+}

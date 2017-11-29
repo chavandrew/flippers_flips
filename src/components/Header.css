@@ -1,1 +1,8 @@
-
+h1 {
+  color: black;
+  text-align: center;
+ font-family: 'Amatic SC';
+ font-size: 70px;
+ margin-bottom: 1px;
+ letter-spacing: 5px;
+}

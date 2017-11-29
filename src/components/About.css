@@ -1,7 +1,41 @@
-p {
-  color: white;
-}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
-li {
-  color: white;
+
+.aboutinfo{
+  margin: 20px auto 0 auto;
+  padding: 10px 20px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 0;
+  font-family: 'Amatic SC';
+  flex:1
+}
+.abin{
+
+font-size: 40px;
+padding-bottom: 0;
+font-family: 'Amatic SC';
+justify-content: flex-start;
+
+}
+h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-left: 140px;
+}
+.lbk {
+  font-size: 25px;
+
+}
+.pinimg {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+
+}
+.imgpin{
+  height: 50%;
 }

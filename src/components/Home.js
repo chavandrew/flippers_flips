@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import './About.css';
-import bar from '../assets/img/flipperstavernbar.png';
+import './Home.css';
+import bar from '../assets/img/ballpin.jpg';
+
 
 class Home extends Component {
   render() {
     return (
 
-        <img src={bar} alt='bar'/>
-
-
-
+      <div className='img'>
+        <img src={bar} className='imghome'/>
+      </div>
   );
   }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 .wrapper{
   display: flex;
@@ -6,17 +6,19 @@
   padding: 10px 20px;
   max-width: 1000px;
   flex-wrap: wrap;
-  justify-content: flex-start;
+}
+ul, p, h3{
+  font-family: 'Amatic SC';
+  color: black;
 }
 
 ul, p {
   list-style: none;
   margin: 10px 0;
-  color: white;
+  color: black;
   font-size: 10;
   flex: 1;
   overflow: hidden;
-  justify-content: flex-start;
 }
 
 h3 {
@@ -24,9 +26,9 @@ h3 {
   font-size: 50px;
   margin-bottom: 0;
   margin-top: 0;
-  font-family: 'Roboto Slab';
-  padding: 20px;
-  flex: 1;
+  padding: 5px 0 5px 0;
+  flex: 100;
+  border-bottom: solid;
 }
 ul{
   padding-left: 0;
@@ -34,4 +36,8 @@ ul{
 p{
   padding: 0;
   font-size: 30px;
+  font-weight: bold;
+}
+.info{
+  font-size: 17px;
 }

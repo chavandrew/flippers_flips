@@ -8,15 +8,13 @@ import{
 } from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import bar from './assets/img/flipperstavernbar.png';
-import dog from './assets/img/doghot.png'
-
 import './App.css';
-import Menu from './components/Menu';
 import About from './components/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Content from './components/Content'
+import Content from './components/Content';
+
 
 class App extends Component {
   render() {
@@ -25,22 +23,18 @@ class App extends Component {
   <Header />
     <Router>
         <div>
-
           <nav className='tabs'>
-            <NavLink  className='link' exact to='/'></NavLink>{' '}
-            <NavLink className='link' to='/home'>Home</NavLink>{' '}
-            <NavLink className='link' to='/menu'>Menu</NavLink>{' '}
-            <NavLink className='link' to='/about'>About</NavLink>{' '}
-            <NavLink className='link' to='/content'>Content</NavLink>{' '}
+            <NavLink className='link' exact to='/home'>Home</NavLink>{'  '}
+            <NavLink className='link' to='/menu'>Menu</NavLink>{'  '}
+            <NavLink className='link' to='/about'>About</NavLink>{'  '}
           </nav>
-
           <Helmet>
-               <style>{'body { background-color: black; }'}</style>
+              <style>{'body { background-color: #EDE7D9; }'}</style>
            </Helmet>
-          <Switch>
-            <Route path="/menu" component={Menu} />
+          <Switch >
+            <Route path="/home" component={Home} />
+            <Route path="/menu" component={Content} />
             <Route path="/about" component={About} />
-            <Route path="/content" component={Content} />
           </Switch>
         </div>
       </Router>

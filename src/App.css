@@ -19,9 +19,28 @@
 .link{
   width:10%;
 }
+.footwrap{
+  display: flex;
+  justify-content: center;
+}
+.insta{
+  padding:5px;
+}
+.fb{
+  padding:5px;
+}
+
+
+
+
+
+
+
+
+
 /*body {
   padding: 1px;
-  background-image: url('./assets/img/flipperstavernpreview.jpg');
+  background: url('./assets/img/flipperstavernbar.png');
   background-size: cover;
   height: 100vh;
   min-width: 100%;
@@ -30,4 +49,7 @@
   bottom: 0;
   margin: 0px;
 
+}
+#root {
+  background-color: rgba(255,255,255,.3)
 }*/
