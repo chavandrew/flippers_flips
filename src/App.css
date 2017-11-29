@@ -31,7 +31,7 @@
 }
 .tabs {
   background: #1B98E0;
-  margin-top: 5px;
+  margin-top: 0;
   padding: 20px 0 20px 0 ;
   text-align: center;
   font-family: 'Amatic SC';
@@ -48,11 +48,13 @@
 }
 .link:hover {
  background-color: #ffffff;
- color: black;
+ color: #F2C14E;
  padding: 24px 10px;
 }
 
-
+.parent-element .tabs{
+  display: none;
+}
 
 
 

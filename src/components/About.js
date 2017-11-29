@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import welcome from '../assets/img/welcome.jpg';
-import pinball from '../assets/img/flipperstavernpinball.jpg';
+import pinball from '../assets/img/ballpin.png';
 import './About.css'
 
 
@@ -10,11 +10,13 @@ class About extends Component {
   render() {
     return (
       <div className='about'>
-        <div className='pinimg'>
-          <img src={pinball} className='imgpin' />
-        </div>
-        <div className='abin'>
-          <h2>About</h2>
+        <div className='about-img'>
+          <div className='pinimg'>
+            <img src={pinball} className='imgpin' />
+          </div>
+          <div className='abin'>
+            <h2>About</h2>
+          </div>
         </div>
       <div className='aboutinfo'>
         <span className='lbk'>

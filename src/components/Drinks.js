@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import bar from '../assets/img/flipperstavernbar.png'
 import './Drinks.css'
 
 
@@ -8,7 +9,9 @@ class Drinks extends Component {
   render() {
     return (
       <div className='wrapper'>
-
+        <div className='barimg'>
+        <img src={bar} className='imgbar'/>
+      </div>
         <div className='page-section'>
             <div className='wrapper'>
               <div className='conent'>

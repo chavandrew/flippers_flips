@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Content.css'
-import pinball from '../assets/img/flipperstavernpreview.jpg';
+import hotdog from '../assets/img/hotdog.jpg';
+import hotdog2 from '../assets/img/hotdog2.jpg';
+import hotdog3 from '../assets/img/hotdog3.jpg'
 class Content extends Component {
   render() {
     return (
@@ -9,9 +11,11 @@ class Content extends Component {
       <div className='page-section'>
         <div className='wrapper'>
           <div className='conent'>
-            <div className='food'>
-            <img src={pinball} className='foodmenu'/>
-          </div>
+
+              {/* <div className='images-food1'>
+                <img src={hotdog} className='hotdog1'/>
+              </div> */}
+
             <div className='conentheader'>
               <h3><span className='contentheader'>Appetizers</span></h3>
             </div>

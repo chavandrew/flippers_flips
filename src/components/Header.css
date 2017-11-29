@@ -1,11 +1,12 @@
 
 
 h1 {
-  color: black;
+  color: #F2C14E;
   text-align: center;
  font-family: 'Amatic SC';
  font-size: 90px;
  margin-bottom: 1px;
  letter-spacing: 5px;
  font-style: bold;
+ font-style: italic;
 }

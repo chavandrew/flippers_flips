@@ -6,6 +6,7 @@
   padding: 10px 20px;
   max-width: 1000px;
   flex-wrap: wrap;
+
 }
 ul, p, h3{
   font-family: 'Amatic SC';
@@ -44,20 +45,18 @@ p{
   font-size: 17px;
 }
 .food{
-  display: inline-flex;
   justify-content: flex-end;
   padding-top: 0;
+  box-sizing: border-box;
+  width: 50%;
+}
+.foodmenu{
+  height: 50%;
+  min-width: 0%;
+  padding-top: 1px;
   align-self: flex-end;
 
 }
-.foodmenu{
-  position: center;
-  height: 60%;
-  min-width: 0%;
-  padding-top: 1px;
-  width: 80%;
-
-}
 .contentheader{
-  color: #FFBA49;
+  color: black;
 }

@@ -2,41 +2,53 @@
 
 .about{
   display: flex;
-  justify-content: space-arounds;
   flex-wrap: wrap;
   margin: 20px auto 0 auto;
   padding: 10px 20px;
   max-width: 1000px;
-
+  align-items: flex-start;
+  margin-top: 0;
 }
 .aboutinfo{
   font-family: 'Amatic SC';
-
 }
 .abin{
 font-size: 40px;
 font-family: 'Amatic SC';
-align-content: flex-end;
-
-
+align-self: flex-end;
 }
+
 h2{
   margin-top: 0;
-  
+  margin-bottom: 0;
 }
 
 .lbk {
-  font-size: 25px;
+  font-size: 30px;
 
 }
-img {
-justify-content: flex-start;
+.pinimg{
+  display: inline-flex;
+  justify-content: flex-end;
+  padding-top: 0;
+  box-sizing: border-box;
 }
-.imgpin{
-  justify-content: flex-start;
-  height: 50%;
+.imgpin {
+  height: 70%;
+  min-width: 0%;
+  padding-top: 1px;
+  width: 90%;
+  padding-right: 45px;
+}
+.about-img {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.images-food2{
+display: flex;
+flex-direction: column;
+}
 
-}
 /*margin: 20px auto 0 auto;
 padding: 10px 20px;
 max-width: 1000px;
