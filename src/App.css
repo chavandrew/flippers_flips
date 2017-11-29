@@ -29,6 +29,30 @@
 .fb{
   padding:5px;
 }
+.tabs {
+  background: #1B98E0;
+  margin-top: 5px;
+  padding: 20px 0 20px 0 ;
+  text-align: center;
+  font-family: 'Amatic SC';
+
+}
+
+.link{
+ transition: 0.4s;
+ color: #ffffff;
+ font-size: 30px;
+ text-decoration: none;
+ padding: 0 10px;
+ margin: 0 10px;
+}
+.link:hover {
+ background-color: #ffffff;
+ color: black;
+ padding: 24px 10px;
+}
+
+
 
 
 

@@ -14,6 +14,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Content from './components/Content';
+import Drinks from './components/Drinks'
 
 
 class App extends Component {
@@ -24,16 +25,20 @@ class App extends Component {
     <Router>
         <div>
           <nav className='tabs'>
-            <NavLink className='link' exact to='/home'>Home</NavLink>{'  '}
+            <NavLink className='link' exact to='/'></NavLink>{'  '}
+            <NavLink className='link' to='/home'>Home</NavLink>{'  '}
             <NavLink className='link' to='/menu'>Menu</NavLink>{'  '}
+            <NavLink className='link' to='/drinks'>Drinks</NavLink>{'  '}
             <NavLink className='link' to='/about'>About</NavLink>{'  '}
           </nav>
           <Helmet>
               <style>{'body { background-color: #EDE7D9; }'}</style>
            </Helmet>
           <Switch >
+
             <Route path="/home" component={Home} />
             <Route path="/menu" component={Content} />
+            <Route path="/drinks" component={Drinks} />
             <Route path="/about" component={About} />
           </Switch>
         </div>

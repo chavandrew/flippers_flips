@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Content.css'
-import pinball from '../assets/img/machineflippers.png';
+import pinball from '../assets/img/flipperstavernpreview.jpg';
 class Content extends Component {
   render() {
     return (
@@ -9,9 +9,11 @@ class Content extends Component {
       <div className='page-section'>
         <div className='wrapper'>
           <div className='conent'>
-
+            <div className='food'>
+            <img src={pinball} className='foodmenu'/>
+          </div>
             <div className='conentheader'>
-              <h3>Appetizers</h3>
+              <h3><span className='contentheader'>Appetizers</span></h3>
             </div>
               <div className='content-details'>
                 <ul>
@@ -57,7 +59,7 @@ class Content extends Component {
           <div className='wrapper'>
             <div className='conent'>
               <div className='conentheader'>
-                <h3>Signature Dogs</h3>
+              <h3><span className='contentheader'>Signature Dogs</span></h3>
               </div>
                 <div className='content-details'>
                   <ul>
@@ -138,7 +140,7 @@ class Content extends Component {
                     <div className='wrapper'>
                       <div className='conent'>
                         <div className='conentheader'>
-                          <h3>Protein Selection</h3>
+                          <h3><span className='contentheader'>Protein Selection</span></h3>
                         </div>
                           <div className='content-details'>
                             <ul>
