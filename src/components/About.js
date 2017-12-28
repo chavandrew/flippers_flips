@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import welcome from '../assets/img/welcome.jpg';
 import pinball from '../assets/img/ballpin.png';
 import './About.css'
 
@@ -11,10 +10,8 @@ class About extends Component {
     return (
       <div className='about'>
         <div className='about-img'>
-          <div className='pinimg'>
-            <img src={pinball} className='imgpin' />
-          </div>
           <div className='abin'>
+            <img src={pinball} className='imgpin' />
             <h2>About</h2>
           </div>
         </div>

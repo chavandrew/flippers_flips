@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 .footwrap{
   display: flex;
-  justify-content: center;
 }
 .insta{
   padding:5px;
 }
 .fb{
   padding:5px;
+}
+.bar-info{
+  font-family: 'Amatic SC';
+  justify-content: flex-start;
 }

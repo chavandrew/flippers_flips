@@ -7,8 +7,6 @@
   max-width: 1000px;
   flex-wrap: wrap;
 }
-
-
 .info{
   font-size: 17px;
 }
@@ -17,7 +15,6 @@
   justify-content: flex-end;
   padding-top: 0;
   align-self: flex-end;
-
 }
 .foodmenu{
   position: center;
@@ -25,19 +22,29 @@
   min-width: 0%;
   padding-top: 1px;
   width: 80%;
-
 }
 .beertype {
   font-size: 45px;
   color: #FC2F00;
 }
+
 .barimg{
-  justify-content:center;
-  padding-top: 0;
-  overflow: none;
+  background-size: contain;
+    /*height: 100vh;*/
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .imgbar {
-  position: center;
-  height: 80%;
+  justify-content: flex-end;
   padding-top: 0;
+  width:60%;
+  height: auto;
 }

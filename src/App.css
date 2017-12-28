@@ -3,22 +3,21 @@
 .App {
   text-align: center;
 }
-
-.App-title {
+body{
+  background-color: #EDE7D9;
+}
+/*.App-title {
   font-size: 1.5em;
 }
-
 .App-intro {
   font-size: medium;
 }
 .tabs{
   text-align: center;
 }
-
-
 .link{
   width:10%;
-}
+}*/
 .footwrap{
   display: flex;
   justify-content: center;
@@ -35,9 +34,7 @@
   padding: 20px 0 20px 0 ;
   text-align: center;
   font-family: 'Amatic SC';
-
 }
-
 .link{
  transition: 0.4s;
  color: #ffffff;
@@ -47,35 +44,7 @@
  margin: 0 10px;
 }
 .link:hover {
- background-color: #ffffff;
- color: #F2C14E;
+ background-color: #EDE7D9;
+ color: #F87060;
  padding: 24px 10px;
 }
-
-.parent-element .tabs{
-  display: none;
-}
-
-
-
-
-
-
-
-
-
-/*body {
-  padding: 1px;
-  background: url('./assets/img/flipperstavernbar.png');
-  background-size: cover;
-  height: 100vh;
-  min-width: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: 0px;
-
-}
-#root {
-  background-color: rgba(255,255,255,.3)
-}*/

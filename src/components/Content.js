@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Content.css'
-import hotdog from '../assets/img/hotdog.jpg';
-import hotdog2 from '../assets/img/hotdog2.jpg';
-import hotdog3 from '../assets/img/hotdog3.jpg'
+
 class Content extends Component {
   render() {
     return (
@@ -11,11 +9,6 @@ class Content extends Component {
       <div className='page-section'>
         <div className='wrapper'>
           <div className='conent'>
-
-              {/* <div className='images-food1'>
-                <img src={hotdog} className='hotdog1'/>
-              </div> */}
-
             <div className='conentheader'>
               <h3><span className='contentheader'>Appetizers</span></h3>
             </div>
@@ -37,14 +30,12 @@ class Content extends Component {
                   <div className='meal'>
                     <p>Pretzels </p>
                       <span className='info'>(3) Bavarian pretzels, comes with homeade 90 Schilling sautéed onion queso</span>
-
                   </div>
                 </li>
                 <li>
                   <div className='meal'>
                     <p> Spicy Black Bean Salsa</p>
                       <span className='info'>Black beans, bell peppers, shoe peg corn, bell peppers, jalapenos, tomatoes, onions, cilantro, habaneros, serrano's, and seasoning</span>
-
                   </div>
                 </li>
                 <li>
@@ -58,7 +49,6 @@ class Content extends Component {
             </div>
           </div>
         </div>
-
         <div className='page-section'>
           <div className='wrapper'>
             <div className='conent'>
@@ -133,13 +123,11 @@ class Content extends Component {
                         <span className='info'>(3) to an order corn tortillas, honey habanero mustard, shredded cabbage, tomato relish, queso fresco, tri colored chpis, & side of pico</span>
                       </div>
                     </li>
-
                   </ul>
                 </div>
               </div>
                 </div>
                   </div>
-
                 <div className='page-section'>
                     <div className='wrapper'>
                       <div className='conent'>
@@ -200,11 +188,7 @@ class Content extends Component {
                         </div>
                     </div>
                 </div>
-
-
-
-
-</div>
+              </div>
 
   );
   }
